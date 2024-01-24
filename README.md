@@ -10,3 +10,7 @@ deno run --allow-net main.ts
   `https://ncode.syosetu.com/n0000xx/`の代わりに<br>
   `http://localhost:8000/n0000xx/`とGETする。
 - 必要に応じて、連結されたHTMLか、302リダイレクトを返す。
+
+deno deployでサンプルとして動かしてます。<br>
+https://ncode-combine-index.deno.dev/n2710db/ <br>
+広く一般に使用する場合、キャッシュの実装など負荷対策を行った上で、自身で運用してください。
